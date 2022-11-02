@@ -11,7 +11,8 @@
     "docs:serve": "vitepress serve docs",
     "test": "vitest",
     "lint": "eslint --fix --ext .ts,.vue src",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\""
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\"",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
