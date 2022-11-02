@@ -12,7 +12,8 @@
     "test": "vitest",
     "lint": "eslint --fix --ext .ts,.vue src",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test:run": "vitest run"
   },
   "keywords": [],
   "author": "",
@@ -42,6 +43,9 @@
   },
   "dependencies": {
     "@algolia/client-search": ">= 4.9.1 < 6",
+    "@commitlint/cli": "17.0.2",
+    "@commitlint/config-conventional": "17.0.2",
+    "typescript": "^4.8.4",
     "vue": "3.2.37"
   }
 }
