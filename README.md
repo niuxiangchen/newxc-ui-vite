@@ -25,7 +25,7 @@
 
 ## Quick Start
 
-希望尽快上手 newxc-UI，可以浏览 [Getting Started](https://smarty-admin.vercel.app/).
+希望尽快上手 newxc-UI，可以浏览 [Getting Started](https://newxc-ui-vite.vercel.app/).
 
 ## Browser Support
 
