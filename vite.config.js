@@ -37,6 +37,7 @@ export const config = {
       fileName: "smarty-ui",
       formats: ["esm", "umd", "iife"], // 导出模块类型
     },
+    cssCodeSplit: true, // 追加
     outDir: "./dist",
   },
 

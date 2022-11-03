@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://newxc-ui-vite.vercel.app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
