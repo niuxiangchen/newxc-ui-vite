@@ -5,10 +5,7 @@
 </p>
 
 <h1 align="center">newxc-UI</h1>
-
 <br>
-<br>
-
 ## Features
 
 前端工程化演示项目。
