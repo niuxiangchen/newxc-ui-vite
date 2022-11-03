@@ -1,4 +1,4 @@
-import { defineComponent, createVNode } from "vue";
+import { defineComponent, createVNode, openBlock, createElementBlock, createTextVNode } from "vue";
 const __uno = "";
 const props = {
   size: {
@@ -57,7 +57,7 @@ const Button = defineComponent({
           border-${props2.color}-${props2.plain ? "500" : "500"}
           cursor-pointer
           border-solid
-          text-${props2.plain ? props2.color + "-500" : "white"}
+          text-${props2.plain ? props2.color + "-500" : "white-500"}
           text-${size[props2.size].text}
           hover:text-white
           transition duration-300 ease-in-out transform hover:scale-105
@@ -68,12 +68,37 @@ const Button = defineComponent({
     }, null) : "", slots.default ? slots.default() : ""]);
   }
 });
+const _export_sfc = (sfc, props2) => {
+  const target = sfc.__vccOpts || sfc;
+  for (const [key, val] of props2) {
+    target[key] = val;
+  }
+  return target;
+};
+const _sfc_main = {
+  name: "SFCButton"
+};
+function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return openBlock(), createElementBlock("button", null, "SFC Button");
+}
+const SFCButton = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render]]);
+const JSXButton = defineComponent({
+  name: "JSXButton",
+  setup() {
+    return () => createVNode("button", null, [createTextVNode("JSX Button")]);
+  }
+});
 const entry = {
   install(app) {
     app.component(Button.name, Button);
+    app.component(SFCButton.name, SFCButton);
+    app.component(JSXButton.name, JSXButton);
   }
 };
 export {
   Button,
+  JSXButton,
+  SFCButton,
   entry as default
 };
+//# sourceMappingURL=smarty-ui.esm.js.map
