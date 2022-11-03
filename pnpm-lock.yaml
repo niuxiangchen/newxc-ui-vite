@@ -29,6 +29,7 @@ specifiers:
   fs-extra: ^10.1.0
   handlebars: ^4.7.7
   happy-dom: ^4.0.0
+  husky: ^8.0.1
   jsdom: ^19.0.0
   prettier: ^2.6.2
   react: ^18.1.0
@@ -78,6 +79,7 @@ devDependencies:
   '@vitest/ui': registry.npmmirror.com/@vitest/ui/0.14.2
   c8: registry.npmmirror.com/c8/7.12.0
   happy-dom: registry.npmmirror.com/happy-dom/4.1.0
+  husky: registry.npmmirror.com/husky/8.0.1
   jsdom: registry.npmmirror.com/jsdom/19.0.0
   react: registry.npmmirror.com/react/18.2.0
   react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
@@ -4091,6 +4093,14 @@ packages:
     name: human-signals
     version: 2.1.0
     engines: {node: '>=10.17.0'}
+    dev: true
+
+  registry.npmmirror.com/husky/8.0.1:
+    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/husky/-/husky-8.0.1.tgz}
+    name: husky
+    version: 8.0.1
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   registry.npmmirror.com/iconv-lite/0.6.3:
